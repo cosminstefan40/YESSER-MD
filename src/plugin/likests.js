@@ -11,7 +11,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const validCommands = ['autolike', 'autoslike', 'autostatuslike'];
 
  if (validCommands.includes(cmd)){
-   if (!isCreator) return m.reply("*THIS IS AN OWNER COMMAND🤠*");
+   if (!isCreator) return m.reply("*THIS IS AN OWNER COMMAND*");
     let responseMessage;
 
     if (text === 'on') {
